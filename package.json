@@ -1,10 +1,10 @@
 {
-  "name": "react_search",
+  "name": "react-post-webpack-app",
   "version": "1.0.0",
-  "description": "Search app using React",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -15,8 +15,12 @@
     "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^4.0.1",
-    "webpack-cli": "^2.0.10"
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "react": "^17.0.2",
